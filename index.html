@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- <script src="https://cdn.emailjs.com/dist/email.min.js"></script> -->
+  <!-- <script>
+    (function(){
+      emailjs.init("lylrzy5ZfNQk4i8w3"); // Replace with your public key
+    })();
+    
+    function sendEmail(e) {
+      e.preventDefault();
+      emailjs.sendForm('service_ivqa11g', 'template_5i3074b', '#contact-form')
+        .then(() => alert("Message sent successfully!"))
+        .catch(() => alert("Failed to send message."));
+    }
+  </script> -->
+
+</head>
+<body>
+    <header class="header">
+        <nav class="first-nav">
+            <a href="#">Portfolio</a>
+        </nav>
+        <div class="menu-icon" id="menu-icon">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="second-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+        <div class="mid-section">
+            <div class="merge-section">
+                <div class="name-text">
+                    <p class="hi">Hi,</p>
+                    <p class="name">I,m Nitin Sharma</p>
+                    <span class="auto-type" id="auto-type-text"></span>
+                         <span><button class="download-cv"><a href="Nitin CV (3).pdf">Download CV</a></button></span>
+                    <span><button class="hire-box">Hire Me!</button></span>
+                </div>
+                <div>
+                    <img src="nitinnew-removebg-preview.png" alt="" class="image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="about">
+        <div class="about-upper-box">
+            <div class="about-section">
+                <div class="about-image">
+                </div>
+                <div class="about-text">
+                    <small class="about-me">About Me</small><br>
+                    <h2>Transforming Ideas into Digital Reality</h2><br>
+                    <p>Hello!<span class="highlight">I’m Nitin Sharma,</span>a Front-End Developer recently completed my
+                        MCA from Invertis University.</p><br>
+                    <p> With a strong passion for both design and coding,
+                        I specialize in building dynamic and responsive websites that deliver an exceptional user
+                        experience.</p><br>
+                    <p>Through my academic journey and hands-on experience, I’ve gained proficiency in HTML, CSS,
+                        JavaScript, and frameworks like React. I’m constantly exploring new technologies and trends in
+                        front-end development,
+                        including UI/UX principles, web performance, and accessibility.
+                        My goal is to create web applications that are not only functional but also visually appealing
+                        and easy to navigate.</p><br>
+                    <p>As a developer, I believe in continuous learning and improvement.
+                        If you're looking for a dedicated, enthusiastic developer who is ready to bring fresh ideas and
+                        creativity to your next project,
+                        I’d love to connect!
+                    </p>
+    
+                </div>
+            </div>
+        </div></section>
+
+    <section id="services">
+        <div class="provide-service-upper-box">
+            <div class="provide-services">
+                <h1>We Provides</h1>
+                <h2>"Empowering Your Business with </h2>
+                <h2>Seamless Web Solutions."</h2>
+            </div>
+        </div>
+        <div class="services-main-box">
+            <div class="ui-design-box">
+                <div class="ui-image"></div>
+                <div class="ui-text">
+                    <span class="ui-ux-designer-name">UI/UX Designer</span>
+                    <span class="service-text"> UI/UX Design – Designing high-fidelity visual interfaces with attention
+                        to detail,
+                        color theory, typography, and brand consistency.</span>
+                </div>
+            </div>
+            <div class="web-developer-box">
+                <div class="web-image"></div>
+                <div class="web-text">
+                    <span class="wed-design-name">Front-End Developer</span>
+                    <span class="service-text">A passionate Front-End Developer with a focus on building responsive,
+                        dynamic,
+                        and user-friendly web applications. With a deep understanding
+                        modern front-end frameworks.</span>
+                </div>
+            </div>
+        </div></section>
+        
+        <section id="project">
+        <div class="main-project-box">
+            <div class="achivement"><h2>My Achivement</h2></div>
+            <div class="project-upper-box">
+                <div class="project-images">
+                    <img src="invertis.png" alt="" height="260px" width="100%">
+                </div>
+                <div class="project-images">
+                     <img src="invertis.png" alt="" height="260px" width="100%">
+                </div>
+                <div class="project-images">
+                    <img src="invertis.png" alt="" height="260px" width="100%">
+                </div>
+            </div>
+            <div class="project-upper-box2">
+                <div class="project-images">
+                    <img src="invertis.png" alt="" height="260px" width="100%">
+                </div>
+            </div>
+        </div></section>
+
+
+<section id="contact">
+        <div class="contact-main-box">
+            <div class="personal-info-box">
+                <h2 class="get-touch">Get In Touch With Us</h2>
+                <h3 class="get-touch">"Talk to us in real-time – we’re just a message away!"</h3>
+                <p class="cont-text"><i class="fa-solid fa-location-dot"></i> Bareilly Uttar Pradesh Pin 243202</p>
+                <p class="cont-text"><i class="fa-solid fa-envelope"></i> nitinsharma47020@gmail.com</p>
+                <p class="cont-text"><i class="fa-brands fa-square-instagram"></i> nitin.sharma__004</p>
+            </div>
+            <div class="connect-us-box">
+                <form id="contact-form" onsubmit="sendEmail(event)"> 
+                <h2>Contact Us!</h2>
+                <input type="hidden" name="access_key" value="a270c71c-5408-4dfd-bafe-3e7eac08a037
+                ">
+             <input type="text" id="name" name="name" required placeholder="Your Name">
+              <input type="email" id="email" name="email" placeholder="Enter Email">
+                <textarea id="message" name="message" rows="8" column="100" required min="5" placeholder="Leave Your Message" ></textarea>
+                <div class="bnt">  <button type="submit">Send Message</button></div>
+            </form>
+           </div> 
+        </div>
+
+    </section>
+    </main>
+
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "lylrzy5ZfNQk4i8w3",
+      });
+   })();
+</script>
+<script src="portfolio.js"></script>
+</body>
+
+</html> 
+
+
+ 
+
+
+
+
+
