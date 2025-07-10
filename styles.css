@@ -171,8 +171,9 @@ a {
 }
 
 .auto-type {
+    height: 40px;
     padding-top: 5px;
-    font-size: 30px;
+    font-size: 40px;
     border-right: 2px solid orange;
     white-space: nowrap;
     overflow: hidden;
@@ -217,7 +218,7 @@ a {
     }
 
     .auto-type {
-        font-size: 20px;
+        font-size: 28px;
         text-align: center;
     }
 
@@ -288,8 +289,7 @@ p {
   .about-upper-box {
     height: auto;
     flex-direction: column;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 90px;
   }
 
   .about-section {
@@ -336,7 +336,7 @@ p {
     align-items: center;
     justify-content: center;
     background-color: rgb(252, 247, 247);
-    padding-top: 80px;
+    padding-top: 100px;
 }
 
 .provide-services {
@@ -459,7 +459,7 @@ h1 {
   .provide-service-upper-box {
     flex-direction: column;
     height: auto;
-    padding: 40px 20px 0 20px;
+    padding: 90px 20px 0 20px;
     text-align: center;
   }
 
@@ -551,7 +551,7 @@ img{
   .achivement {
     font-size: 18px;
     text-align: center;
-    padding: 10px;
+    padding: 60px;
   }
 
   .main-project-box {
