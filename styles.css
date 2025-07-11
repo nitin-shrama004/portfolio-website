@@ -13,7 +13,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(151, 162, 169);
+    background-color: rgb(101, 101, 101);
     position: fixed;
     padding: 0 20px;
     z-index: 1000;
@@ -26,7 +26,7 @@ html{
 
 .first-nav a {
     text-decoration: none;
-    color: rgb(233, 1, 70);
+    color: rgba(148, 0, 7, 0.865);
 }
 
 .menu-icon {
@@ -135,12 +135,23 @@ html{
 }
 
 .name-text {
-    height: 250px;
+    height: 350px;
     width: 370px;
     font-size: 40px;
     font-weight: bolder;
     display: flex;
     flex-direction: column;
+}
+.name-box-icons{
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  margin: 0px;
+}
+.icon-circle-linkedin,
+.icon-circle-twiter,
+.icon-circle-insta {
+background-color: rgb(233, 233, 233);
 }
 
 .hire-box {
@@ -165,6 +176,9 @@ html{
     background-color: rgba(9, 152, 159, 0.817);
 }
 
+.download-cv:hover {
+  transform: scale(1.1);
+}
 a {
     color: #fff;
     text-decoration: none;
@@ -655,6 +669,7 @@ button {
     height: auto;
     padding: 20px;
     gap: 20px;
+    padding-top: 85px;
   }
 
   .personal-info-box,
@@ -685,4 +700,128 @@ button {
     margin-top: 15px;
   }
 }
+/* footer */
+.footer {
+  background-color: #3f4847;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  font-family: 'Arial', sans-serif;
+}
 
+.footer h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.footer-nav {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer-nav a {
+  color: rgb(230, 231, 221);
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.footer-nav span {
+  color: grey;
+  font-weight: bold;
+}
+
+.footer-nav a:hover {
+  color: white;
+}
+
+.footer-icons{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.icon-circle-linkedin,
+.icon-circle-twiter,
+.icon-circle-insta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: transform 0.3s ease;
+}
+
+.icon-circle-linkedin {
+  color: rgb(35, 101, 200);
+}
+
+.icon-circle-twiter {
+  color: black;
+}
+
+.icon-circle-insta {
+  color: red;
+}
+
+.icon-circle:hover {
+  transform: scale(1.1);
+}
+
+hr {
+  margin: 20px auto;
+  width: 95%;
+  border: 0.5px solid white;
+}
+
+.footer-bottom {
+  font-size: 16px;
+  color: white;
+}
+@media (max-width: 768px) {
+  .footer h2 {
+    font-size: 20px;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+ .footer-nav-s{
+    display: none;
+ }
+  .footer-nav a {
+    font-size: 16px;
+    margin: 2px 0;
+  }
+
+  .icon-circle-linkedin,
+  .icon-circle-twiter,
+  .icon-circle-insta {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 5px;
+  }
+
+  .footer-bottom {
+    font-size: 14px;
+  }
+}
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+
+.icon-circle-attention {
+  animation: pulse 1s infinite;
+}
